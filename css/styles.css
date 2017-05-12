@@ -1,0 +1,175 @@
+/* line 9, /Users/magdalenagorecka/GitHub/1705-BTSRP/scss/styles.scss */
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+/* line 13, /Users/magdalenagorecka/GitHub/1705-BTSRP/scss/styles.scss */
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/******************* BODY **/
+/* line 19, /Users/magdalenagorecka/GitHub/1705-BTSRP/scss/styles.scss */
+body {
+  position: relative;
+  margin: auto;
+  padding-bottom: 20px;
+  height: 100%;
+  font: "Raleway", serif 14px;
+}
+
+/* line 27, /Users/magdalenagorecka/GitHub/1705-BTSRP/scss/styles.scss */
+.wrap {
+  margin: 0 auto;
+}
+
+/* line 29, /Users/magdalenagorecka/GitHub/1705-BTSRP/scss/styles.scss */
+.wrap h1 {
+  font-family: "Raleway", serif;
+  font-size: 2.5rem;
+}
+
+@media (min-width: 576px) {
+  /* line 29, /Users/magdalenagorecka/GitHub/1705-BTSRP/scss/styles.scss */
+  .wrap h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 768px) {
+  /* line 29, /Users/magdalenagorecka/GitHub/1705-BTSRP/scss/styles.scss */
+  .wrap h1 {
+    font-size: 4rem;
+  }
+}
+
+@media (min-width: 992px) {
+  /* line 29, /Users/magdalenagorecka/GitHub/1705-BTSRP/scss/styles.scss */
+  .wrap h1 {
+    font-size: 4.5rem;
+  }
+}
+
+/* line 36, /Users/magdalenagorecka/GitHub/1705-BTSRP/scss/styles.scss */
+.wrap h3 {
+  font-family: "Raleway", serif;
+  font-size: 1rem;
+}
+
+@media (min-width: 576px) {
+  /* line 36, /Users/magdalenagorecka/GitHub/1705-BTSRP/scss/styles.scss */
+  .wrap h3 {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 768px) {
+  /* line 36, /Users/magdalenagorecka/GitHub/1705-BTSRP/scss/styles.scss */
+  .wrap h3 {
+    font-size: 4rem;
+  }
+}
+
+@media (min-width: 992px) {
+  /* line 36, /Users/magdalenagorecka/GitHub/1705-BTSRP/scss/styles.scss */
+  .wrap h3 {
+    font-size: 4.5rem;
+  }
+}
+
+/******************* FONT **/
+/******************* HEADER **/
+/* line 49, /Users/magdalenagorecka/GitHub/1705-BTSRP/scss/styles.scss */
+.section {
+  padding: 50px 0;
+  display: block;
+}
+
+/* line 53, /Users/magdalenagorecka/GitHub/1705-BTSRP/scss/styles.scss */
+.section-header {
+  width: 100%;
+  height: 70vh;
+  z-index: 0;
+  display: block;
+  top: 0;
+  background: linear-gradient(#ffffff, #00bcd4), url("../img/bg3.jpg") no-repeat;
+  background-blend-mode: multiply;
+  background-size: cover;
+  padding-top: 80px;
+}
+
+/* line 64, /Users/magdalenagorecka/GitHub/1705-BTSRP/scss/styles.scss */
+.header {
+  width: 80vw;
+  margin: auto;
+}
+
+/******************* CONTENT **/
+/* line 75, /Users/magdalenagorecka/GitHub/1705-BTSRP/scss/styles.scss */
+.lead {
+  font-size: 1rem;
+  padding: 20px 0;
+}
+
+/* line 79, /Users/magdalenagorecka/GitHub/1705-BTSRP/scss/styles.scss */
+p {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1rem;
+}
+
+/* line 84, /Users/magdalenagorecka/GitHub/1705-BTSRP/scss/styles.scss */
+.but {
+  background-color: #d41800;
+  border: 1px #d41800 solid;
+}
+
+/* line 87, /Users/magdalenagorecka/GitHub/1705-BTSRP/scss/styles.scss */
+.but :hover {
+  background-color: #00bcd4;
+}
+
+/******************* FOOTER **/
+/* line 93, /Users/magdalenagorecka/GitHub/1705-BTSRP/scss/styles.scss */
+.footer {
+  background-color: #00bcd4;
+  position: relative;
+  padding: 0;
+  width: 100%;
+  text-align: center;
+}
+
+/* line 99, /Users/magdalenagorecka/GitHub/1705-BTSRP/scss/styles.scss */
+.footer a {
+  color: #db167c;
+  text-decoration: none;
+}
+
+/* line 102, /Users/magdalenagorecka/GitHub/1705-BTSRP/scss/styles.scss */
+.footer a :hover {
+  color: #00bcd4;
+}
+
+/* line 106, /Users/magdalenagorecka/GitHub/1705-BTSRP/scss/styles.scss */
+.footer p {
+  color: #ffffff;
+}
+
+/* line 114, /Users/magdalenagorecka/GitHub/1705-BTSRP/scss/styles.scss */
+.box-1 {
+  background-color: #00d5ff;
+}
+
+/* line 114, /Users/magdalenagorecka/GitHub/1705-BTSRP/scss/styles.scss */
+.box-2 {
+  background-color: #00aaff;
+}
+
+/* line 114, /Users/magdalenagorecka/GitHub/1705-BTSRP/scss/styles.scss */
+.box-3 {
+  background-color: #0080ff;
+}
+
+/*# sourceMappingURL=../css/styles.map */

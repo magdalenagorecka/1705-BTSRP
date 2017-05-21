@@ -172,4 +172,20 @@ p {
   background-color: #0080ff;
 }
 
+/* line 119, /Users/magdalenagorecka/GitHub/1705-BTSRP/scss/styles.scss */
+h1 {
+  color: red;
+}
+
+/* line 123, /Users/magdalenagorecka/GitHub/1705-BTSRP/scss/styles.scss */
+.subtitle {
+  font-style: italic;
+}
+
+/* line 127, /Users/magdalenagorecka/GitHub/1705-BTSRP/scss/styles.scss */
+.title {
+  color: blue;
+  font-style: normal;
+}
+
 /*# sourceMappingURL=../css/styles.map */

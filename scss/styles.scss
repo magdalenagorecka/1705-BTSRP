@@ -115,3 +115,16 @@ p{
     background-color: adjust-hue(aqua, $i*10);
   }
 }
+
+h1 {
+  color: red;
+}
+
+.subtitle {
+  font-style: italic;
+}
+
+.title {
+  color: blue;
+  font-style: normal;
+}
